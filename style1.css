@@ -1,0 +1,223 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'League Spartan', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  
+  }
+
+  *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav {
+    /* background-color: #111; */
+    background-color: rgb(91, 91, 93);
+    color: white;
+    padding: 20px 50px;
+  }
+
+  .navItem1 img{
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  
+  .navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 10px;
+    border-radius: 10px;
+  }
+  
+  .searchInput {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .searchInput::placeholder {
+    color: rgb(247, 234, 234);
+  }
+  
+  .navg {
+    background-color: rgb(67, 67, 68);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .navg li{
+    list-style: none;
+    float: left;
+    margin: 1px 40px;
+  }
+
+  .navg li a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .navg ul{
+    text-decoration: none;
+  }
+
+  .navItem3 i{
+    margin: 10px 20px;
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+    size: 20px;
+  }
+
+  .navg li a:hover{
+    text-decoration: underline;
+  }
+
+  .navItem3 a i:hover{
+    text-decoration: underline;
+  }
+
+  .navItem3{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rightnav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .featureIcon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .featureTitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+  }
+  
+  .featureDesc {
+    color: gray;
+    width: 50%;
+    height: 100px;
+  }
+
+  footer {
+    display: flex;
+    background-color: rgb(68, 66, 66);
+  }
+  
+  .footerLeft {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .fMenuTitle {
+    font-size: 16px;
+  }
+  
+  .fList {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .fListItem {
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .footerRight {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .fInput {
+    padding: 5px;
+  }
+  
+  .fButton {
+    padding: 5px;
+    background-color: black;
+    color: white;
+  }
+  
+  .fIcons{
+    display: flex;
+  }
+  
+  .fIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .copyright{
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  footer{
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(66, 67, 68);
+  }
+
+  .footerLeft{
+    padding: 20px;
+    width: 90%;
+  }
+
+  .footerRight{
+    padding: 20px;
+    width: 90%;
+    align-items: center;
+    background-color: rgb(77, 72, 72);
+  }
+
+  .fIcons a i{
+    margin: 1px 40px;
+    padding: 20px;
+    color: black;
+  }

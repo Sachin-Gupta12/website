@@ -1,0 +1,77 @@
+.templeproduct{
+    padding: 50px 100px; 
+}
+
+.woodentempleheading1{
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .product-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .product {
+    width: 300px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .product-title {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .product-price {
+    font-size: 16px;
+    color: #e74c3c;
+    margin-bottom: 10px;
+  }
+
+  .product-description {
+    font-size: 14px;
+    color: #555;
+  }
+
+/*.card-container1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0rem;
+  }
+
+  .card-container1 .card{
+    padding: 0.2rem;       
+    display: inline-block;       
+    flex-basis: 20%;
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+
+ /* .card img{
+    width: 100%;
+  }
+
+ /* .temple1{
+    padding: 0.2rem;     
+    display: flex;         
+    flex-basis: 25%;
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }*/
